@@ -1,4 +1,4 @@
-import Student from 'https://rb.gy/z506q';
+import Student from 'https://github.com/subhitjain03';
 
 class Bio extends Student {
   name     = 'Subhit Jain';
