@@ -1,16 +1,13 @@
-### Hi there 👋
+import Student from 'https://rb.gy/z506q';
 
-<!--
-**subhitjain03/subhitjain03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio extends Student {
+  name     = 'Subhit Jain';
+  title    = 'Student';
+  college  = 'Walchand Institute Of Technology ';
+  location = 'Solapur-Maharasthra';
+}
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends Student {
+  languages  = ['Java', 'C','Html'];
+  databases  = ['MySQL'];
+}
